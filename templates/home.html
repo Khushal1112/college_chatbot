@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Excellence College - Shaping Future Leaders</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+   <link rel="stylesheet" href="../static/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">z
+      <div class="nav-brand">
+        <i class="fas fa-graduation-cap"></i>
+        <span>Excellence College</span>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#admissions">Admissions</a></li>
+        <li><a href="#placements">Placements</a></li>
+        <li><a href="#facilities">Facilities</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">Welcome to Excellence College</h1>
+      <p class="hero-subtitle">Empowering Minds, Building Futures</p>
+      <div class="hero-buttons">
+        <a href="#admissions" class="btn btn-primary">Apply Now</a>
+        <a href="#about" class="btn btn-secondary">Learn More</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header">
+        <h2>About Us</h2>
+        <p>Building Excellence Since 1975</p>
+      </div>
+      <div class="about-content">
+        <div class="about-text">
+          <h3>Our Mission</h3>
+          <p>Excellence College is committed to providing world-class education that nurtures innovation, critical thinking, and leadership. With over 25 years of academic excellence, we have shaped thousands of successful professionals.</p>
+          <div class="stats">
+            <div class="stat-item">
+              <h4>10,000+</h4>
+              <p>Alumni</p>
+            </div>
+            <div class="stat-item">
+              <h4>92%</h4>
+              <p>Placement Rate</p>
+            </div>
+            <div class="stat-item">
+              <h4>200+</h4>
+              <p>Companies</p>
+            </div>
+            <div class="stat-item">
+              <h4>A++ Grade</h4>
+              <p>NAAC Accredited</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-image">
+          <div class="image-placeholder">
+            <i class="fas fa-university"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Courses Section -->
+  <section id="courses" class="courses">
+    <div class="container">
+      <div class="section-header">
+        <h2>Our Programs</h2>
+        <p>Choose from a wide range of courses</p>
+      </div>
+      <div class="courses-grid">
+        <div class="course-card">
+          <div class="course-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <h3>B.Tech</h3>
+          <p>Computer Science, IT, ECE, Mechanical, Civil Engineering</p>
+          <ul>
+            <li>4 Years Duration</li>
+            <li>NBA Accredited</li>
+            <li>Industry Partnerships</li>
+          </ul>
+          <a href="#admissions" class="course-link">Learn More →</a>
+        </div>
+
+        <div class="course-card">
+          <div class="course-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>BCA / MCA</h3>
+          <p>Bachelor's & Master's in Computer Applications</p>
+          <ul>
+            <li>3/2 Years Duration</li>
+            <li>Practical Training</li>
+            <li>Internship Programs</li>
+          </ul>
+          <a href="#admissions" class="course-link">Learn More →</a>
+        </div>
+
+        <div class="course-card">
+          <div class="course-icon">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <h3>MBA</h3>
+          <p>Master of Business Administration</p>
+          <ul>
+            <li>2 Years Duration</li>
+            <li>Multiple Specializations</li>
+            <li>Industry Exposure</li>
+          </ul>
+          <a href="#admissions" class="course-link">Learn More →</a>
+        </div>
+
+        <div class="course-card">
+          <div class="course-icon">
+            <i class="fas fa-flask"></i>
+          </div>
+          <h3>B.Sc / M.Sc</h3>
+          <p>Science Programs in Physics, Chemistry, Mathematics</p>
+          <ul>
+            <li>3/2 Years Duration</li>
+            <li>Research Opportunities</li>
+            <li>Modern Laboratories</li>
+          </ul>
+          <a href="#admissions" class="course-link">Learn More →</a>
+        </div>
+
+        <div class="course-card">
+          <div class="course-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3>BBA / B.Com</h3>
+          <p>Business Administration & Commerce</p>
+          <ul>
+            <li>3 Years Duration</li>
+            <li>Skill Development</li>
+            <li>Entrepreneurship Focus</li>
+          </ul>
+          <a href="#admissions" class="course-link">Learn More →</a>
+        </div>
+
+        <div class="course-card">
+          <div class="course-icon">
+            <i class="fas fa-microscope"></i>
+          </div>
+          <h3>Ph.D</h3>
+          <p>Doctoral Programs in Various Disciplines</p>
+          <ul>
+            <li>3-5 Years Duration</li>
+            <li>Research Grants</li>
+            <li>Expert Supervision</li>
+          </ul>
+          <a href="#admissions" class="course-link">Learn More →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Admissions Section -->
+  <section id="admissions" class="admissions">
+    <div class="container">
+      <div class="section-header">
+        <h2>Admissions</h2>
+        <p>Join our community of learners</p>
+      </div>
+      <div class="admissions-content">
+        <div class="admission-process">
+          <h3>Admission Process</h3>
+          <div class="process-steps">
+            <div class="step">
+              <div class="step-number">1</div>
+              <h4>Online Application</h4>
+              <p>Fill out the application form on our portal</p>
+            </div>
+            <div class="step">
+              <div class="step-number">2</div>
+              <h4>Submit Documents</h4>
+              <p>Upload marksheets, ID proof, and photos</p>
+            </div>
+            <div class="step">
+              <div class="step-number">3</div>
+              <h4>Entrance Test</h4>
+              <p>Appear for entrance exam (if applicable)</p>
+            </div>
+            <div class="step">
+              <div class="step-number">4</div>
+              <h4>Merit List</h4>
+              <p>Check results and confirm your seat</p>
+            </div>
+          </div>
+        </div>
+        <div class="admission-info">
+          <div class="info-card">
+            <i class="fas fa-calendar-alt"></i>
+            <h4>Important Dates</h4>
+            <p><strong>Application Start:</strong> June 1, 2026</p>
+            <p><strong>Last Date:</strong> July 31, 2026</p>
+            <p><strong>Entrance Exam:</strong> August 15, 2026</p>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-rupee-sign"></i>
+            <h4>Fee Structure</h4>
+            <p><strong>B.Tech:</strong> ₹80,000 - ₹1,20,000/year</p>
+            <p><strong>MBA:</strong> ₹1,00,000 - ₹1,50,000/year</p>
+            <p><strong>BCA/MCA:</strong> ₹40,000 - ₹80,000/year</p>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-award"></i>
+            <h4>Scholarships</h4>
+            <p><strong>Merit:</strong> Up to 50% fee waiver</p>
+            <p><strong>Sports:</strong> For state/national athletes</p>
+            <p><strong>Need-based:</strong> Financial assistance</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Placements Section -->
+  <section id="placements" class="placements">
+    <div class="container">
+      <div class="section-header">
+        <h2>Placements</h2>
+        <p>Our students are placed in top companies</p>
+      </div>
+      <div class="placement-stats">
+        <div class="placement-card">
+          <i class="fas fa-trophy"></i>
+          <h3>₹42 LPA</h3>
+          <p>Highest Package</p>
+        </div>
+        <div class="placement-card">
+          <i class="fas fa-chart-bar"></i>
+          <h3>₹6.5 LPA</h3>
+          <p>Average Package</p>
+        </div>
+        <div class="placement-card">
+          <i class="fas fa-building"></i>
+          <h3>200+</h3>
+          <p>Partner Companies</p>
+        </div>
+        <div class="placement-card">
+          <i class="fas fa-user-check"></i>
+          <h3>92%</h3>
+          <p>Placement Rate</p>
+        </div>
+      </div>
+      <div class="companies">
+        <h3>Top Recruiters</h3>
+        <div class="company-logos">
+          <div class="company-logo">Google</div>
+          <div class="company-logo">Microsoft</div>
+          <div class="company-logo">Amazon</div>
+          <div class="company-logo">TCS</div>
+          <div class="company-logo">Infosys</div>
+          <div class="company-logo">Wipro</div>
+          <div class="company-logo">Deloitte</div>
+          <div class="company-logo">Accenture</div>
+          <div class="company-logo">HSBC</div>
+          <div class="company-logo">HCL</div>
+          <div class="company-logo">Tech Mahindra</div>
+          <div class="company-logo">Gemini</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Facilities Section -->
+  <section id="facilities" class="facilities">
+    <div class="container">
+      <div class="section-header">
+        <h2>Campus Facilities</h2>
+        <p>World-class infrastructure for holistic development</p>
+      </div>
+      <div class="facilities-grid">
+        <div class="facility-card">
+          <i class="fas fa-book"></i>
+          <h3>Library</h3>
+          <p>10,000+ books, digital journals, 9am to 6pm reading room</p>
+        </div>
+        <div class="facility-card">
+          <i class="fas fa-desktop"></i>
+          <h3>Computer Labs</h3>
+          <p>State-of-the-art labs with latest software</p>
+        </div>
+        <div class="facility-card">
+          <i class="fas fa-home"></i>
+          <h3>Hostel</h3>
+          <p>Separate hostels for boys & girls with all amenities</p>
+        </div>
+        <div class="facility-card">
+          <i class="fas fa-futbol"></i>
+          <h3>Sports Complex</h3>
+          <p>Cricket, football, basketball, gym facilities</p>
+        </div>
+        <div class="facility-card">
+          <i class="fas fa-utensils"></i>
+          <h3>Cafeteria</h3>
+          <p>Multi-cuisine food court with hygienic environment</p>
+        </div>
+        <div class="facility-card">
+          <i class="fas fa-wifi"></i>
+          <h3>Wi-Fi Campus</h3>
+          <p>High-speed internet across entire campus</p>
+        </div>
+        <div class="facility-card">
+          <i class="fas fa-bus"></i>
+          <h3>Transport</h3>
+          <p>Bus service covering 30+ routes</p>
+        </div>
+        <div class="facility-card">
+          <i class="fas fa-hospital"></i>
+          <h3>Medical Center</h3>
+          <p>On-campus health center with qualified doctors</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us</p>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h4>Address</h4>
+              <p>123 College Road, Knowledge City<br>State - 500001, India</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h4>Phone</h4>
+              <p>+91-9876543210<br>+91-9876543211</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <p>info@excellencecollege.edu<br>admissions@excellencecollege.edu</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-clock"></i>
+            <div>
+              <h4>Office Hours</h4>
+              <p>Monday - Saturday<br>9:00 AM - 5:00 PM</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <h3>Send us a Message</h3>
+          <form>
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <input type="text" placeholder="Subject" required />
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3><i class="fas fa-graduation-cap"></i> Excellence College</h3>
+          <p>Empowering minds and building futures since 1995. Join us in our journey of academic excellence.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#admissions">Admissions</a></li>
+            <li><a href="#placements">Placements</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">Student Portal</a></li>
+            <li><a href="#">Faculty Portal</a></li>
+            <li><a href="#">Library</a></li>
+            <li><a href="#">Downloads</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Contact</h4>
+          <ul>
+            <li><i class="fas fa-phone"></i> +91-9876543210</li>
+            <li><i class="fas fa-envelope"></i> info@excellencecollege.edu</li>
+            <li><i class="fas fa-map-marker-alt"></i> Knowledge City, India</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Excellence College. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Chatbot Button -->
+  <div class="chatbot-button" id="chatbotBtn" onclick="openChatbot()">
+    <i class="fas fa-comments"></i>
+    <span class="chatbot-badge">Ask me!</span>
+  </div>
+
+  <!-- Chatbot Modal -->
+  <div class="chatbot-modal" id="chatbotModal">
+    <div class="chatbot-header">
+      <div class="chatbot-header-info">
+        <i class="fas fa-robot"></i>
+        <div>
+          <h3>College Assistant</h3>
+          <p class="chatbot-status"><span class="status-dot"></span>Online</p>
+        </div>
+      </div>
+      <button class="close-chatbot" onclick="closeChatbot()">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    <iframe src="/chat" class="chatbot-iframe"></iframe>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
